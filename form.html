@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+            *{
+                padding: 0;
+                margin: 0 auto;
+            }
+            .col-45{
+                width: 45%;
+            }
+            .container{
+                width: 100%;
+                margin: 0 auto;
+            }
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            body{
+                background-color: #41f5f2d6;
+            }
+            .announcementbar{
+                background-color: #a0b2bf;
+                text-align: center;
+                font-size: 18px;
+            }
+            .first{
+                text-align: center;
+                padding: 20px;
+                color: #4a5e8d;
+            }
+            .second {
+                text-align: center;
+                padding: 20px;
+                color: #4a5e8d;
+            }
+            .third {
+                text-align: center;
+                padding: 20px;
+                color: #4a5e8d;
+            }
+            .diclaration{
+                padding: 40px;
+            }
+            h2{
+                color: red;
+                padding: 20px;
+            }
+            .required-star{
+                color: red;
+            }
+          
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="announcementbar">
+            <p>Individual Registration</p>
+        </div>
+    </section>
+    <section>
+        <div class="first_part">
+            <h2>User particulars</h2>
+            <div class="first">
+                <label for="User id"><span class="required-star">*</span>User Id:</label>
+                <input type="text">
+                <br><br>
+                <label for="password"><span class="required-star">*</span>Password:</label>
+                <input type="password">
+                <br><br>
+                <label for="password"><span class="required-star">*</span>Confirm Password:</label>
+                <input type="password">
+            </div>
+        </div>
+    </section>
+    <section>
+        <section>
+            <div class="sec-part">
+                <h2>Personal perticulars</h2>
+                <div class="row">
+                    <div class="col-45">
+                        <div class="second">
+                            <label for="salutation"><span class="required-star">*</span>salutation:</label>
+                            <select name="select" id="">
+                                <option value="aaa">select</option>
+                                <option value="aaa">aaa</option>
+                                <option value="aaa">aaa</option>
+                                <option value="aaa">aaa</option>
+                            </select>
+                            <br><br>
+                            <label for="mname"><span class="required-star">*</span>Middle name:</label>
+                            <input type="text">
+                            <br><br>
+                            <label for="Resident status"><span class="required-star">*</span>Resident Status:</label>
+                            <select name="select" id="">
+                                <option value="aaa">select</option>
+                                <option value="aaa">aaa</option>
+                                <option value="aaa">aaa</option>
+                                <option value="aaa">aaa</option>
+                            </select>
+                            <br><br>
+                            <label for="Email"><span class="required-star">*</span>Email Id:</label>
+                            <input type="email">
+
+                        </div>
+                    </div>
+
+                    <!-- <div class="row"> -->
+                    <div class="col-45">
+                        <div class="second">
+                            <label for="fname"><span class="required-star">*</span>First name:</label>
+                            <input type="text">
+                            <br><br>
+                            <label for="lname"><span class="required-star">*</span>Last name:</label>
+                            <input type="text">
+                            <br><br>
+                            <label for="Country"><span class="required-star">*</span>Country:</label>
+                            <select name="select" id="">
+                                <option value="aaa">select</option>
+                                <option value="aaa">India</option>
+                                <option value="aaa">USA</option>
+                                <option value="aaa">UK</option>
+                            </select>
+                            <br><br>
+                            <label for="mobile"><span class="required-star">*</span>Mobile Number:</label>
+                            <input type="">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="third_part">
+                <h2>Account particular</h2>
+            </div>
+            <div class="third">
+                <label for="acno"><span class="required-star">*</span>15 Digit Account no:</label>
+                <input type="text">
+                <label for="nick_name"><span class="required-star">*</span>Nick name:</label>
+                <input type="text">
+                <br><br>
+                <label for="Fund"><span class="required-star">*</span>Fund transfer</label>
+                <select name="select" id="">
+                    <option value="aaa">select</option>
+                    <option value="aaa">UPI</option>
+                    <option value="aaa">RTGS</option>
+                    <option value="aaa">NEFT</option>
+                </select>
+            </div>
+        </section>
+        <section>
+            <div class="text">
+                <h2>Declaration</h2>
+            </div>
+            <div class="diclaration">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia officia sunt voluptas placeat recusandae.
+                Sunt
+                recusandae fugiat sint voluptates ratione, assumenda, debitis accusamus, iure id cupiditate ad aliquid
+                cumque dolorum? <br>
+                Eveniet ratione impedit, voluptas maiores facilis cum nihil ullam rem, rerum, dolore eaque. Facilis ex
+                exercitationem libero optio, ut quam qui tempore quidem, reiciendis officia eum dolorum cumque sapiente
+                hic!
+                Omnis impedit nostrum iure eius, non eveniet dignissimos veniam, temporibus odit officiis excepturi
+                explicabo eos commodi sapiente animi placeat quo laudantium, quidem sit corrupti. Sequi, reprehenderit!
+                A
+                error ipsam maiores.
+                Fuga odit dolor ullam atque ipsum illum maxime, excepturi quasi, laudantium magni deserunt sed delectus,
+                impedit nemo iste saepe! Quisquam corporis dignissimos repellendus at beatae, quod vel itaque ratione.
+
+            </div>
+        </section>
+</body>
+</html>
